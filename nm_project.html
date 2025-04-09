@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+            color: #fff;
+            text-align: center;
+            padding: 4rem 0 2rem;
+            position: relative;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            object-fit: cover;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            margin-left: 20px; /* Adjust spacing */
+            transform: translateY(-50%);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background: linear-gradient(135deg, #1d2671, #c33764);
+            color: #fff;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffeb3b;
+        }
+
+        .section-content {
+            background: #fff;
+            padding: 2rem;
+            margin: 2rem auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .download-button {
+            background: linear-gradient(135deg, #ff6a00, #ee0979);
+            color: #fff;
+            padding: 0.7rem 1.5rem;
+            text-decoration: none;
+            border-radius: 30px;
+            display: inline-flex;
+            align-items: center;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .download-button:hover {
+            background: linear-gradient(135deg, #ee0979, #ff6a00);
+        }
+
+        .download-button::before {
+            content: '\1F4C4';
+            margin-right: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: linear-gradient(135deg, #1d2671, #c33764);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./my_photo.jpg" alt="Your Profile Picture" class="profile-picture">
+        <h1>Vijayakumar M</h1>
+        <p>ncas2326se1073@ncas.in | 8940490114</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section-content">
+        <h2>About Me</h2>
+        <p>Results-driven Computer Science professional with experience in software development, system design, and data analysis. Passionate about leveraging technology to develop innovative solutions and improve efficiency in software development processes.</p>
+    </section>
+
+    <section id="education" class="section-content">
+        <h2>Education</h2>
+        <p>B.Sc in Computer Science, University of Madras (Graduation: 2026)</p>
+    </section>
+
+    <section id="skills" class="section-content">
+        <h2>Key Skills</h2>
+        <ul>
+            <li>Software Optics</li>
+            <li>OS Development</li>
+            <li>IoT Science</li>
+            <li>Game Creation</li>
+            <li>React</li>
+            <li>Cloud Computing</li>
+            <li>Python</li>
+            <li>Spring</li>
+            <li>Machine Learning & AI</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section-content">
+        <h2>Projects & Achievements</h2>
+        <ul>
+            <li>Hack Deduction AI - Worked on AI for Activision organization.</li>
+            <li>Home Automation - Experience in IoT-based home automation.</li>
+            <li>E-Cart Website</li>
+            <li>Cloud Security IBM</li>
+            <li>IBM Chatbot</li>
+            <li>College Portal</li>
+        </ul>
+    </section>
+
+    <section id="resume" class="section-content">
+        <h2>Certifications & Training</h2>
+        <ul>
+            <li>IoT - Saveetha Arts and Science (2023)</li>
+            <li>Bug Correction in Game Backend - Activision (2024)</li>
+        </ul>
+        <h2>Resume</h2>
+        <a href="./my_resume.pdf" target="_blank" class="download-button">Download CV</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vijayakumar M</p>
+    </footer>
+</body>
+</html>
